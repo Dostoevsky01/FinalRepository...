@@ -9,6 +9,7 @@ import android.widget.Toast
 import com.RecyclerView6.RecyclerView6.MainWork.MainActivity4
 import com.example.RecyclerView6.R
 import com.google.firebase.auth.FirebaseAuth
+import android.view.View
 
 class MainActivity2 : AppCompatActivity() {
 
@@ -19,10 +20,13 @@ class MainActivity2 : AppCompatActivity() {
     private lateinit var registerButton: Button
     private lateinit var resetButton: Button
 
+
     private lateinit var mAuth:FirebaseAuth
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
         mAuth = FirebaseAuth.getInstance()
 

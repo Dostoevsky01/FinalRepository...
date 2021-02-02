@@ -48,7 +48,7 @@ class RegisterActivity : AppCompatActivity() {
                             ///(DOESNT WORK WITH THIS CODE. WORKS WITHOUT IT)startActivity(Intent(this, MainActivity2::class.java ))
                             finish()
                         }else{
-                            Toast.makeText(this,"Error Occurred!", Toast.LENGTH_LONG).show()
+                            Toast.makeText(this,"Error While Registering", Toast.LENGTH_LONG).show()
                         }
 
                 }

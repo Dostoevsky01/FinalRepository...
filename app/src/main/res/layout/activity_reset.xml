@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your Email"
+            android:fontFamily="@font/poppinsmedium"
             android:ems="10"
             android:inputType="textEmailAddress" />
 
@@ -31,7 +32,10 @@
             android:id="@+id/resetButton"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
+            android:backgroundTint="#FFD155"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsbold"
             android:layout_height="wrap_content"
-            android:text="Reset Password" />
+            android:text="Send Reset Link" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

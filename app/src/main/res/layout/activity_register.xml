@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+            android:fontFamily="@font/poppinsmedium"
             android:ems="10"
             android:inputType="textEmailAddress" />
 
@@ -31,6 +32,7 @@
             android:id="@+id/signUpPasswordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
             android:hint="Password"
             android:ems="10"
             android:inputType="textPassword" />
@@ -39,6 +41,7 @@
             android:id="@+id/signUpPassword2EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
             android:hint="Repeat password"
             android:ems="10"
             android:inputType="textPassword" />
@@ -46,7 +49,10 @@
         <Button
             android:id="@+id/signUpButton"
             android:layout_marginTop="20dp"
+            android:textSize="16sp"
             android:layout_width="match_parent"
+            android:backgroundTint=" #FFFD5353"
+            android:fontFamily="@font/poppinsbold"
             android:layout_height="wrap_content"
             android:text="Register" />
     </LinearLayout>
