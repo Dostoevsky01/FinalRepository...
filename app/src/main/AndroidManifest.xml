@@ -7,7 +7,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_gallery"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_gallery_circle"
         android:supportsRtl="true"
         android:theme="@style/RecyclerView6">
         <activity android:name="com.RecyclerView6.RecyclerView6.FirebaseActivity.PasswordChangeActivity" />
